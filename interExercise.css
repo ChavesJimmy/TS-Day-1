@@ -1,0 +1,49 @@
+
+#Concept {
+background-image: url(https://media.istockphoto.com/photos/crazy-chef-with-frying-pan-picture-id1365253730?b=1&k=20&m=1365253730&s=170667a&w=0&h=cCXqIziE5Wgz7IUpvBYKoc2Lpx-eKrX-6SnVJkF7ELE=);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+font-size: large;
+font-weight: 700;
+color:black;
+text-shadow: rgb(244, 161, 7) 3px 2px 2px;
+text-align: center;
+padding: 50px;
+margin: auto;
+border: solid 5px;}
+
+#Menu{
+    background-image: url("https://media.istockphoto.com/vectors/friends-are-vegetarians-having-dinner-together-vector-id1200088443?k=20&m=1200088443&s=612x612&w=0&h=TrYPnc_TDMeUSCSd1U-90tm6v6Z0GksqwMiSDQrXZBw=");
+    background-repeat: repeat-y;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+}
+#Menu2 {
+    gap:50px
+}
+#place {
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    padding: 25px;
+    margin-top: 40px;
+    border: solid 10px rgb(103, 4, 4);
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px 3px;
+    width: 18rem;
+    opacity: 85%;
+}
+h2{
+    background-color: rgb(244, 161, 7);
+    border: solid 3px;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 10px 5px 5px 3px;
+
+    width: 250px;
+    margin: auto;
+    opacity: 85%;
+}
