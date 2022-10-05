@@ -21,29 +21,38 @@ var fName = "Jimmy";
 var lName = "Chaves";
 /* document.body.innerHTML = `My name is ${fName}  ${lName}`;
  */
-var array = [
-    { "fName": "jimmy",
-        "lName": "chaves" },
-    { "fName": "jimmy",
-        "lName": "chaves" },
-    { "fName": "jimmy",
-        "lName": "chaves" },
-    { "fName": "jimmy",
-        "lName": "chaves" },
-    { "fName": "jimmy",
-        "lName": "chaves" },
-    { "fName": "jimmy",
-        "lName": "chaves" },
-    { "fName": "jimmy",
-        "lName": "chaves" },
-    { "fName": "jimmy",
-        "lName": "chaves" },
-    { "fName": "jimmy",
-        "lName": "chaves" },
-    { "fName": "jimmy",
-        "lName": "chaves" }
+/* let array : Array<{fName: string, lName : string}> = [
+    {"fName" : "jimmy",
+    "lName" : "chaves"},
+    {"fName" : "jimmy",
+    "lName" : "chaves"},
+    {"fName" : "jimmy",
+    "lName" : "chaves"},
+    {"fName" : "jimmy",
+    "lName" : "chaves"},
+    {"fName" : "jimmy",
+    "lName" : "chaves"},
+    {"fName" : "jimmy",
+    "lName" : "chaves"},
+    {"fName" : "jimmy",
+    "lName" : "chaves"},
+    {"fName" : "jimmy",
+    "lName" : "chaves"},
+    {"fName" : "jimmy",
+    "lName" : "chaves"},
+    {"fName" : "jimmy",
+    "lName" : "chaves"}
+   
 ];
-array.forEach(function (name) {
+array.forEach(function(name) {
     console.log(name);
-    document.body.innerHTML += "My name is ".concat(fName, "<br>");
+    document.body.innerHTML += `My name is ${fName}<br>`
+ 
+}) */
+// basic exercise 3
+var nameArray = ["Jon", "Max", "Kate", "Mina"];
+nameArray.forEach(function (val, index) {
+    document.body.innerHTML += "1 value : ".concat(val, "<br>\n    ~~~~~~~~~~<br>");
+    document.body.innerHTML += "2 index : ".concat(index, "<br>\n    --------<br>");
+    document.body.innerHTML += "value : ".concat(val, "<br>\n    index ").concat(index, "<br>\n    _______________<br>");
 });

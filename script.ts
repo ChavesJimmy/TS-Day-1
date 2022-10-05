@@ -25,7 +25,7 @@ let lName : string = "Chaves";
 
 /* document.body.innerHTML = `My name is ${fName}  ${lName}`;
  */
-let array : Array<{fName: string, lName : string}> = [
+/* let array : Array<{fName: string, lName : string}> = [
     {"fName" : "jimmy",
     "lName" : "chaves"},
     {"fName" : "jimmy",
@@ -52,5 +52,20 @@ array.forEach(function(name) {
     console.log(name);
     document.body.innerHTML += `My name is ${fName}<br>`
  
+}) */
+
+// basic exercise 3
+let nameArray : Array<string> = ["Jon", "Max", "Kate", "Mina"];
+
+nameArray.forEach(function(val, index){
+    document.body.innerHTML += `1 value : ${val}<br>
+    ~~~~~~~~~~<br>`
+
+    document.body.innerHTML += `2 index : ${index}<br>
+    --------<br>`
+
+    document.body.innerHTML += `value : ${val}<br>
+    index ${index}<br>
+    _______________<br>`
 })
 
